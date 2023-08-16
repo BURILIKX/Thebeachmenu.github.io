@@ -1,0 +1,80 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('beautiful-purple-smoke-effect-pattern-against-black-backdrop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px; /* Размер вашего логотипа для мобильных устройств */
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('logo.png');
+    background-size: cover;
+}
+
+.menu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.279);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(78, 1, 69, 0.1);
+}
+
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 35px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0;
+  text-align: Center;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(91, 2, 72);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+.menu-header{
+    text-align: center;
+    font-weight: bold;
+    font-family: georgia;
+    font-size: 40px;
+    display: block;
+    font-weight:normal;
+    margin: 20px 0;
+    text-align: Center;
+  }
